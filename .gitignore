@@ -1,0 +1,55 @@
+# =========================
+# OS / systeem bestanden
+# =========================
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Kubernetes secrets (BELANGRIJK)
+# =========================
+*.secret.yaml
+secrets.yaml
+secret.yaml
+*.key
+*.crt
+*.pem
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Helm
+# =========================
+charts/*/charts/
+charts/*/tmp/
+*.tgz
+
+# =========================
+# Kustomize
+# =========================
+kustomize build output
+*.bak
+
+
+# =========================
+# ArgoCD local configs (optioneel)
+# =========================
+.argocd/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
